@@ -1,0 +1,70 @@
+html,body{
+	padding: 0px;
+	margin:0px;
+}
+.body{
+	margin:20px;
+	padding:20px;
+	background-color: #eee;
+	border:1px solid #999;
+}
+.left{
+	width:200px;
+	padding: 20px;
+	float: left;
+	position: relative;
+}
+.left div{
+    width:200px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+#img{
+	display: inline-block;
+	width:80px;
+	height: 80px;
+	padding: 20px;
+}
+p{
+	text-align: center;
+	font-family:"Microsoft Yahei";
+	font-size:25px;
+}
+.left div span{
+	font-family:"Microsoft Yahei";
+	font-size:15px;
+	position: absolute;
+	top:20px;
+}
+.center{
+	border:1px solid #999;
+	background-color: #fff;
+	margin-left: 220px;
+	margin-right: 140px;
+}
+.right{
+	width:118px;
+    position: absolute;
+    top:40px;
+    right:40px;
+    background-color: #fff;
+    border: 1px solid #999;
+
+}
+.right ul{
+	position: relative;
+    top:0px;
+    right:20px;
+}
+.right ul li{
+	list-style-type:none;    
+}
+img{
+	width:80px;
+	height:80px;
+	margin-bottom:20px;
+
+}
