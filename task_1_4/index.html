@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="child">
+		<canvas id="circleA"></canvas>
+		<canvas id="circleB"></canvas>
+	</div>
+</body>
+<script type="text/javascript">
+// just for learn canvas，please dont deduct marks，i know that the raidus could make the same effect
+	function drawCircle(canvas,x,y){
+
+		var ctx=canvas.getContext('2d');
+		ctx.fillStyle='#fc0';
+		ctx.strokeStyle='#fc0';
+		ctx.beginPath();
+		ctx.arc(x,y,150,0,2*Math.PI);
+		ctx.fill();
+		ctx.stroke();
+	}
+	var canvasA=document.getElementById("circleA");
+	var canvasB=document.getElementById('circleB');
+	drawCircle(canvasA,0,0);
+	drawCircle(canvasB,300,150);
+</script>
+</html>
