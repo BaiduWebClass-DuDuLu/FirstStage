@@ -1,0 +1,113 @@
+* {
+	margin: 0px;
+	border: 0px;
+}
+
+body {
+	width: 892px;
+	height: 1386px;
+	padding: 0px 44px;
+}
+
+div {
+	position: relative;
+}
+
+font {
+	font-family: "黑体";
+}
+
+.header {
+	height:61px;
+}
+
+.header p{
+	position:absolute;
+	bottom: 5px;
+	right: 5px;
+	display: inline-block;
+
+}
+
+#header_left {
+	width:90px;
+	height:41px;
+	padding:10px;
+	display:inline-block;
+	background-color:#7ba1a8; 
+}
+
+.middle_A {
+	margin-top: 20px;
+}
+
+#middle_A_pic {
+	position:relative;
+	width:641px;
+	height:301px;
+	display:inline-block;
+}
+
+#head_pic {
+	width:641px;
+	height:301px;
+	display:block;
+}
+
+#mask_left {
+	position:absolute;
+	/*position:relative;*/
+	width:191px;
+	height:301px;
+	background-color: #90caaf;
+	display:inline-block;
+	opacity: 0.5;
+
+	/*float: left;*/
+}
+
+#mask_right {
+	position:absolute;
+	width:191px;
+	height:301px;
+	background-color: #fcb1aa;
+	display:inline-block;
+	right:0px;
+	opacity: 0.5;
+}
+
+#middle_A_txt {
+	vertical-align: top;
+	display :inline-block;
+	width:203px;
+	margin-left: 40px;
+}
+
+#middle_A_txt font {
+	font-family: "MicrosoftYaHei";
+}
+
+#middle_A_txt p {
+	width:203px;
+}
+
+.middle_B {
+	height:260px;
+}
+.middle_B_block {
+	vertical-align: top;
+	width:250px;
+	display:inline-block;
+	position:relative;
+}
+.middle_B_block p {
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+}
+
+.middle_B_block div {
+	word-wrap:break-word;
+	font-family: SimSun;
+}
