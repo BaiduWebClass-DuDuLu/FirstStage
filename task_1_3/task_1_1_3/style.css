@@ -7,37 +7,32 @@ html,body{
 	padding:20px;
 	background-color: #eee;
 	border:1px solid #999;
+	overflow: auto;
 }
 .left{
+	display: block;
 	width:200px;
-	padding: 20px;
 	float: left;
-	position: relative;
-}
-.left div{
-    width:200px;
-    position: absolute;
-    top:0px;
-    left:0px;
     border: 1px solid #999;
     background-color: #fff;
 }
 #img{
 	display: inline-block;
+	float: left;
 	width:80px;
 	height: 80px;
-	padding: 20px;
+}
+.left span{
+	font-family:"Microsoft Yahei";
+	font-size:15px;
+	display: block;
+	margin-top: 20px;
+
 }
 p{
 	text-align: center;
 	font-family:"Microsoft Yahei";
 	font-size:25px;
-}
-.left div span{
-	font-family:"Microsoft Yahei";
-	font-size:15px;
-	position: absolute;
-	top:20px;
 }
 .center{
 	border:1px solid #999;
@@ -46,25 +41,17 @@ p{
 	margin-right: 140px;
 }
 .right{
+	display: inline-block;
 	width:118px;
-    position: absolute;
-    top:40px;
-    right:40px;
-    background-color: #fff;
+	float: right;
+    color: #fff;
     border: 1px solid #999;
 
 }
-.right ul{
-	position: relative;
-    top:0px;
-    right:20px;
-}
-.right ul li{
-	list-style-type:none;    
-}
 img{
+	margin-left: 20px;
 	width:80px;
 	height:80px;
-	margin-bottom:20px;
+	margin:20px;
 
 }
