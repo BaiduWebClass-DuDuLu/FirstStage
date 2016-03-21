@@ -14,6 +14,10 @@
 			padding: 30px 20px 20px 20px;
 			margin-bottom: 30px;
 		}
+
+		h3,h4 {
+			color:#898989;
+		}
 		.one{
 			background-color: rgb(51,51,51);
 			margin: -8px;
@@ -57,27 +61,33 @@
 			margin-top: 20px;
 		}
 		.img-biankuang{
+			border: 1px solid rgb(222,222,222);
+			margin: 10px;
+			padding:10px;
+			width:100px;
+			height:130px;
 			float: left;
 		}
 		.img2{
-			border: 2px solid rgb(222,222,222);
-			padding: 40px 10px 10px 10px;
-			margin: 20px 0 20px 0;
+			margin-top: 10px;
+			width:100px;
+			height:100px;
 		}
 		.zi-tupian{
-			width: 224px;
-			margin-bottom: -45px;
+			text-indent: 0em;
 			text-align:center;
 		}
 		.biaoge2{
 			width: 100%;
 		}
 		table{
-			border: 2px solid rgb(222,222,222); 
+			border: 0px solid rgb(222,222,222); 
+			border-spacing: 0px; 
 		}
 		td{
-			border-right: 2px solid rgb(222,222,222);
-			border-bottom: 2px solid rgb(222,222,222); 
+			padding:4px;		
+			/*border-right: 2px solid rgb(222,222,222);*/
+			/*border-bottom: 2px solid rgb(222,222,222); */
 		}
 		.biaotou{
 			background-color: rgb(51,51,51);
@@ -131,19 +141,16 @@
 			text-align:center;		
 		}
 		.left{
-			/*left: 20px;*/
-			/*width: 50%;*/
+			margin-left: 20px;
 			margin-right: 530px;
 		}
 		.tijiao{
 			position: absolute;
 			right: 20px;
 			top: 0px;	
-			/*float: right;*/
 		}
 		.middle{
 			position: relative;
-			/*overflow: auto;*/
 		}
 	</style>
 </head>
@@ -163,7 +170,7 @@
 	<div class="left">
 		<div class="box two">
 		<h2>文章一级标题</h2>
-		<h3>文章二级标题</h2>
+		<h3>文章二级标题</h3>
 		<h4>
 			<span>郑国庆</span>
 			<span>2016-3-15</span>
@@ -176,7 +183,7 @@
 		</div>
 		<div class="box three">
 		<h2>另一篇文章一级标题</h2>
-		<h2>文章二级标题</h2>
+		<h3>文章二级标题</h3>
 		<h4>
 			<span>郑国庆</span>
 			<span>2016-3-15</span>
@@ -243,8 +250,8 @@
 			文章二级标题
 		</h3>
 		<h4>
-			<span>郑国庆</span>
-			<span>2016-3-15</span>
+			<span>文章标题</span>
+			<span>发表时间</span>
 		</h4>
 		<ol>
 			<li>排名1</li>
@@ -343,6 +350,6 @@
 		</form>
 	</div>
 </div>
-	<footer>版权所有&copy</footer>
+	<footer>版权所有<font style="font-family: Arial,Helvetica,sans-serif;">©</font></footer>
 </body>
 </html>
