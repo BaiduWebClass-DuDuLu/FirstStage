@@ -1,0 +1,80 @@
+.parent {
+	display: flex;
+	padding: 20px;
+	border: 1px solid #c9c9c9;
+	flex-flow: row wrap;
+	/*flex-direction:row;*/
+	justify-content: space-around;
+}
+
+.parent *{
+	margin: auto;
+	border: 1px solid #c9c9c9;
+	width: 150px;
+}
+.child1 {
+	height: 120px;
+}
+.child2 {
+	height:100px;
+}
+.child3 {
+	height:40px;
+}
+.child4 {
+	height:200px;
+}	
+
+@media (max-width: 670px) {
+	.parent *{
+		margin: 0 auto auto auto;
+	}
+
+	.child1 {
+		order:2;
+		height: 120px;
+	}
+
+	.child2 {
+		order:3;
+		height:100px;
+		margin-right: 0;
+	}
+
+	.child3 {
+		margin:20px auto auto 0;
+		order:4;
+		height:40px;
+	}
+
+	.child4 {
+		order:1;
+		margin-left: 0;
+	}	
+
+}
+
+@media all and (min-width: 670px){
+	.child1 {
+		order:2;
+		height: 120px;
+		margin-left: 0;
+	}
+
+	.child2 {
+		order:3;
+		height:100px;
+
+	}
+
+	.child3 {
+		order:4;
+		height:40px;
+	}
+
+	.child4 {
+		order:5;
+		height:200px;
+		margin-right: 0;
+	}	
+}
