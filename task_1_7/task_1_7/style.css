@@ -1,0 +1,118 @@
+
+* {
+	padding: 0px;
+	margin:0px;
+}
+.header{
+	min-width:1278px;
+	height: 58px;
+}
+.logo{
+	float: left;
+	margin-left: 60px;
+	
+}
+.logo p{
+	font-family: "微软雅黑";
+	font-size: 21px;
+	height:58px;
+	line-height: 58px;
+}
+.header ul{
+	float: right;
+	list-style:none;
+    height:58px;
+	line-height: 58px;
+}
+.header li{
+	float: left;
+	margin-right:47px;
+}
+a{
+	text-decoration:none;
+	color:#83868d;
+	font-family: "微软雅黑";
+}
+.picter{
+	
+	height:690px;
+	min-width:1278px;
+	background: url(a.png);
+	background-size:100% 100%; 
+	background-repeat: no-repeat;
+	
+}
+.mask{
+	width:500px;
+	position: relative;
+	top:228px;
+	left:117px;
+}
+.one{
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+.two{
+	font-size: 21px;
+	line-height: 30px;
+	margin-bottom: 70px;
+	margin-left:8px;
+}
+
+.picter p{
+	color: #fff;
+	font-family: "微软雅黑";
+}
+.mask div{
+    height:63px;
+    width: 330px;
+    background-color:#e74f4d; 
+    margin: 0px;
+}
+.mask div p{
+    font-size: 30px;
+    text-align: center;
+    height:63px;
+	line-height: 63px;
+}
+.nav{
+	height:250px;
+	min-width:1278px;
+	position: relative;
+}
+.nav ul{
+    float: left;
+	list-style:none;
+}
+.nav li{
+	float:left;
+	margin:82px;
+}
+.nav li:before{
+	content: "";
+	display: inline-block;
+	height:50px;
+	width: 1px;
+	background-color: #ccc;
+}
+/*留出来啦~么么哒*/
+.konw{
+	height:362px;
+	background-color:#edecec; 
+}
+.konw img{
+    margin-left:596px;
+    margin-top: 90px;
+}
+.konw p{
+	text-align: center;
+	font-size: 53.59px;
+    font-family: "黑体";
+    color: #a0a1a1;
+    margin-top: 53px;
+}
+
+.row {
+	
+}
+
