@@ -347,3 +347,92 @@ a{
 .section-5 .cell:hover .con {
 	font-size: 0px;
 }
+
+.section-6 {
+	position:relative;
+	height:560px;
+}
+
+.section-6 .cell {
+	display:inline-block;
+	margin:0px;
+	color:#fff;
+	font-family: Microsoft YaHei;
+}
+
+#cell-6-1 {
+	width:70%;
+	height:100%;
+	text-align: center;
+	background: url('img\\pic07.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#cell-6-1-row-1 {
+	margin-top: 50px;
+	font-size: 50px;
+}
+#cell-6-1-row-2 {
+	font-size: 150px;
+}
+#cell-6-1-row-3 {
+	font-size: 30px;
+}
+#cell-6-1-row-4 {
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+#cell-6-2,#cell-6-3,#cell-6-4{
+	height:100%;
+	width:29%;
+	display:inline-block;
+	color:#000;
+	opacity:0.7;
+	text-align: center;
+}
+.radio_container {
+	position:absolute;
+	right:0px;
+	top:0px;
+	height:100%;
+	width:30%;
+	text-align: center;
+}
+.myradio{
+	width:20px;
+	height:20px;
+	border-radius: 10px;
+	margin:5px;
+	margin-top: 400px;
+	background-color:#aaa;
+	display:inline-block;
+}
+.cell #cell-6-2,#cell-6-3,#cell-6-4 .title{
+	font-size: 20px;
+}
+.cell #cell-6-2,#cell-6-3,#cell-6-4 .content{
+	font-size: 18px;
+	width:80%;
+	display:inline-block;
+}
+#myradio1 :active{
+	background-color: #123456;
+}
+
+#myradio1 :active #cell-6-2{
+	display:inline-block;
+}
+#myradio2 :active #cell-6-2,#cell-6-4{
+	display:none;
+}
+#myradio2 :active #cell-6-3{
+	display:inline-block;
+}
+#myradio3 :active #cell-6-2,#cell-6-3{
+	display:none;
+}
+#myradio3 :active #cell-6-4{
+	display:inline-block;
+}
